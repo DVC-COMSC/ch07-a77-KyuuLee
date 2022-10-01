@@ -5,8 +5,8 @@
       "setup": "",
       "run": "python main.py",
       "input": "1 2 3\r\n4 5 6 7",
-      "output": "[1, 4, 2, 5, 3, 6, 7]",
-      "comparison": "included",
+      "output": "[\\w,\\W]*[1, 4, 2, 5, 3, 6, 7][\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     },
@@ -15,8 +15,8 @@
       "setup": "",
       "run": "python main.py",
       "input": "1 2 3 4 5\r\n6 7 8",
-      "output": "[1, 6, 2, 7, 3, 8, 4, 5]",
-      "comparison": "included",
+      "output": "[\\w,\\W]*[1, 6, 2, 7, 3, 8, 4, 5][\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     },
@@ -25,8 +25,8 @@
       "setup": "",
       "run": "python main.py",
       "input": "1 2 3\r\n4 5 6",
-      "output": "[1, 4, 2, 5, 3, 6]",
-      "comparison": "included",
+      "output": "[\\w,\\W]*[1, 4, 2, 5, 3, 6][\\w,\\W]*",
+      "comparison": "regex",
       "timeout": 10,
       "points": 1
     }
